@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Portfolio</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap-social/5.1.1/bootstrap-social.css"> 
+<link href="personal.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" type="text/css" rel="stylesheet" >
+ <!-- Latest compiled and minified JavaScript -->
+</head>
+                                                                       
+<body>
+    <!-- navbar on the top -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                        data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <a class="navbar-brand" href="#"><img src="logo.jpg" alt="logo" height="30" width="41"> </a>
+            </div>
+            
+            <div id="navbar" class="navbar-collapse collapse">                    
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> About</a></li>
+                    <li><a href="#portfolio"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Portfolio </a>
+                    </li>
+                    <li><a href="#contact"><span class="glyphicon glyphicon-info-alt"                                aria-hidden="true"></span><i class="fa fa-envelope-o"></i> Contact</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    
+    <div class="jumbotron">
+        <h5>Time is fast, you make it slow!
+                    <br /><br />Life is hard, you make it soft!</h5>
+    </div>
+    
+    <div class="container">
+        <div class="main-content page-header" id="about">
+            <img src="avatar.jpg" alt="avatar" class="avatar-img"><p style="padding:2vh;"></p>
+            <ul class="about-me">
+                <li> <em><h1 align=center>About Me</h1></em></li>
+                <li>
+            <p style="padding:2vh;"></p>
+                    <p align= left>I am an enthusiast of coding and data science, a rather skillful and quick-learning one, according to most of my friends and even people who just happen to know me. I learned most of my coding skills through MOOC courses, first as a hobby, and then gradually with a desire and capacity of becoming a very good professional one, as a sort of self fulfillment. In addition to coding and data analysis, I was told and proved to be quite good at math and logic. I would be very happy to have the opportunity to help create something, by coding, to help improve the quality of life of people and society I am part of . </p></li>
+            </ul>
+        </div>
+        
+        
+    <!--Portfolio -->
+        <div class="main-content" id="portfolio">
+            <div class="row">
+                <em><h1 align=center>Portfolio</h1></em>
+                <p style="padding:2vh;"></p>
+            </div>
+            <h3 align=center>Proficient in:</h3>
+            <div class='skillset'>
+                <div class='skill-html'>
+                    <h2>HTML &amp; CSS</h2>
+                    <div class='description'>
+                        <div class='projects-button'>Recent Projects</div>
+                        <ul class='projects'>
+                        <li><div class="front">
+                            <span class="word">Restaurant</span>
+                            </div>
+                            <div class="back">
+                            <img class="thumbnail" src="project1.png" alt="picture1" />
+                            </div>
+                        </li>
+                        <li><div class="front">
+                            <span class="word">MOVE</span>
+                            </div>
+                            <div class="back">
+                            <img class="thumbnail" src="project2.png" alt="picture2" />
+                            </div>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+
+            <div class='skill-js'>
+                <h2>JavaScript</h2>
+                    <div class='description'>
+                    <div class='projects-button'>Recent Projects</div>
+                        <ul class='projects'>
+                        <li><div class="front">
+                            <span class="word">Bike Sharing</span>
+                            </div>
+                            <div class="back">
+                            <img class="thumbnail"  src="project3.png" alt="picture3" />
+                            </div>
+                        </li>
+                        <li><div class="front">
+                            <span class="word">Travel Site</span>
+                            </div>
+                            <div class="back">
+                            <img class="thumbnail" src="project4.png" alt="picture4" />
+                            </div>
+                        </li>
+                        </ul>
+                    </div>
+            </div>
+
+            <div class='skill-jquery'>
+                <h2>jQuery</h2>
+                <div class='description'>
+                <div class='projects-button'>Recent Projects</div>
+                    <ul class='projects'>
+                    <li><div class="front">
+                            <span class="word">Davie's' Burger</span>
+                            </div>
+                            <div class="back">
+                            <img class="thumbnail"  src="project5.png" alt="picture5">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    <div class="contact" id="contact">
+            <em><h1 align=center>Contact Me</h1></em>
+            <p style="padding:2vh;"></p>
+            <hr class="star-dark"/>
+        <div>
+            <form id="contactform" novalidate+"">
+            <div class="form-item">
+                <label for="name">Name:</label>
+                <input id="name" type="text" placeholder="Name" required="" />
+            </div>
+            <div class="form-item">
+                <label for="email">Email Address:</label>
+                <input id="email" type="email" placeholder="Email Address" required="" />
+            </div>
+            <div class="form-item">
+                <label for="phone">Phone Number:</label>
+                <input id="phone" type="tel" placeholder="Phone Number" required="" />
+            </div>
+            <div class="form-item">
+            <label for="“message”">Message:</label>
+            <textarea id="message" rows="5" placeholder="Message" required=""></textarea>
+            </div><br/>
+            <button type="submit">Send</button>
+            </form>
+        </div>
+            <ul>
+                        <li class="button"><a class="btn btn-social-icon btn-facebook"  href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a></li>
+                        <li class="button"><a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="button"><a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                        <li class="button"><a class="btn btn-social-icon btn-github"  href="https://github.com/hallaathrad"><i class="fa fa-fw fa-github"></i></a></li>
+                        <li class="button"><a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a></li>
+            </ul>  
+    </div>        
+
+    <div class="footer">
+        <div class="col-xs-12 col-sm-12">
+            <p style="padding:10px;"></p>
+            <p align=center>&copy; 2017 Mama Duck</p>
+        </div>
+    </div>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="personal.js"></script>
+
+
+</body>
+</html>
